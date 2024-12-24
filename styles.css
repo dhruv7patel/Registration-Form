@@ -1,0 +1,87 @@
+/* General body and container styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    margin:50px auto;
+    padding: 20px;
+    background-color: rgb(58, 133, 58);
+    opacity: 0.8;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    background-color: greenyellow;
+    color: rgb(44, 44, 172);
+    border-radius: 10px;
+}
+
+a {
+  color:orange;
+  font-style: italic;
+  font-weight: bold;  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels {
+    margin: 10px;
+}
+
+label {
+    font-size:medium;
+    font-style: oblique;
+    font-weight: bold;
+    color: navy;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid navy;
+    font-size: 1.5cap;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(55, 55, 236);
+}
+
+.error {
+    color: rgb(250, 5, 5);
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
